@@ -143,3 +143,11 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.IsAuthenticated',
     )
 }
+
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'Fresh Line API',
+    'DESCRIPTION': 'API documentation for Fresh Line marketplace platform.',
+    'VERSION': '1.0.0',
+    'SERVE_INCLUDE_SCHEMA': False,
+}
+
