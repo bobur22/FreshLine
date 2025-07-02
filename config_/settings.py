@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'orders',
     'equipment',
     'import_export',
+    'drf_spectacular',
 ]
 
 MIDDLEWARE = [
@@ -134,6 +135,7 @@ MEDIA_ROOT = BASE_DIR / 'media'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 REST_FRAMEWORK = {
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
