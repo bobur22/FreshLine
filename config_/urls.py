@@ -10,6 +10,7 @@ urlpatterns = [
     path('api/products/', include('products.urls')),
     path('api/orders/', include('orders.urls')),
     path('api/equipment/', include('equipment.urls')),
+    path('api/import-export/', include('import_export.urls')),
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
