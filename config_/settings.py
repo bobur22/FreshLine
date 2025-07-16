@@ -158,5 +158,5 @@ SPECTACULAR_SETTINGS = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "https://freshline-production.up.railway.app",
-    "https://fresh-line-front.vercel.app/",
+    "https://fresh-line-front.vercel.app",
 ]
