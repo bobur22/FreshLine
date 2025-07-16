@@ -17,6 +17,8 @@ SECRET_KEY = "django-insecure-)(eqqtna$oiw+px9h8n344xf6nani80(jp1%l8+q-h%gzbar7%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+CORS_ALLOW_CREDENTIALS = True
+
 ALLOWED_HOSTS = ["*"]
 
 # Application definition
@@ -31,7 +33,7 @@ INSTALLED_APPS = [
 
     # global
     "rest_framework",
-'corsheaders',
+    'corsheaders',
 
     # local
     "backend",
@@ -45,7 +47,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-'corsheaders.middleware.CorsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -156,5 +158,5 @@ SPECTACULAR_SETTINGS = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "https://freshline-production.up.railway.app",
+    "https://fresh-line-front.vercel.app/",
 ]
-
