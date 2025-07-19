@@ -7,7 +7,7 @@
 </div>
 
 <h1 align="center">👋 Welcome to Fresh Line project.</h1>
-<h3 align="center">A passionate full-stack developer from Uzbekistan</h3>
+<h3 align="center">A passionate backend developer from Uzbekistan</h3>
 
 ---
 
@@ -19,7 +19,7 @@
 
 ## 🧠 Introduction
 
-This is the official repository for the **Fresh Line Platform**. It's a full-stack web application developed with Django and designed to help you understand and manage important data more efficiently.
+This is the official repository for the **Fresh Line Platform**. It's an api for the backend developed and designed to help you understand and manage important data more efficiently.
 
 ---
 
