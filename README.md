@@ -15,6 +15,10 @@
 
 🔗 [Visit the live website](https://fresh-line.uz/)
 
+## 🌐 Frontend Link
+
+🔗 [Visit the live website](https://github.com/murodil01/fresh_line_front.git)
+
 ---
 
 ## 🧠 Introduction
