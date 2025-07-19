@@ -11,19 +11,17 @@
 
 ---
 
-## 🌐 Project Link
+## 🌐 Live Links
 
-🔗 [Visit the live website](https://fresh-line.uz/)
-
-## 🌐 Frontend Link
-
-🔗 [Visit the live website](https://github.com/murodil01/fresh_line_front.git)
+- 🔗 [Live Website](https://fresh-line.uz/)
+- 🖥️ [Frontend Repository](https://github.com/murodil01/fresh_line_front.git)
 
 ---
 
 ## 🧠 Introduction
 
-This is the official repository for the **Fresh Line Platform**. It's an api for the backend developed and designed to help you understand and manage important data more efficiently.
+This is the official repository for the **Fresh Line Platform**.  
+It is a backend API developed to efficiently manage and serve business-critical data for the Fresh Line platform.
 
 ---
 
